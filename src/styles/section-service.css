@@ -1,0 +1,247 @@
+.section__service{
+    background: url(../assets/all-images/bg.jpg);
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section__service-col{
+    position: relative;
+    width: 100%;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+}
+
+.section__service-block{
+    position: relative;
+    overflow: hidden;
+    background: #000;
+}
+
+.section__service-img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+    border: 0 none;
+    max-width: 100%;
+    
+}
+
+.section__service-block:hover img {
+    /* transform: scale(1.1); */
+    opacity: .5;
+}
+.section__service-block span {
+    position: absolute;
+    background: #000;
+     transition: all ease .5s;
+}
+
+.section__service-block:hover >span{
+    background-color: #fff;
+
+}
+
+.section__service-block:hover .line1{
+    width: 60px;
+    height: 12px;
+}
+
+.section__service-block:hover .line2{
+    width: 10px ;
+    height: 60px ;
+}
+
+.section__service-block:hover .line3{
+    width: 60px;
+    height: 12px;
+}
+
+.section__service-block:hover .line4{
+    width: 10px;
+    height: 60px;
+}
+
+.section__service-block >div{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    margin: 40px;
+    overflow: hidden;
+}
+
+.section__service-block>div h3{
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    height: 55px;
+}
+
+.section__service-block:hover>div h3:after {
+    width: 100% ;
+}
+
+.section__service-block>div h3:after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all ease .5s;
+}
+
+
+
+.section__service-block >div p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all ease .5s;
+    margin-left: 100% !important;
+    width: 100%;
+}
+
+.section__service-block:hover>div>p {
+    margin: 0 !important;
+}
+
+.section__service-block:hover>a {
+    opacity: 1;
+    visibility: visible;
+}
+
+.section__service-block>a{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid;
+    padding: 0 13px;
+    overflow: hidden;
+    border-left-color: rgba(255,255,255,0);
+    border-right-color: rgba(255,255,255,0);
+    transition: all ease .5s;
+    opacity: 0;
+    visibility: visible;
+    text-decoration: none;
+}
+
+.section__service-block>a span {
+    z-index: 99;
+    position: relative;
+    transition: all ease .3s;
+    background: transparent;
+}
+
+.section__service-block>a:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+    transition: all ease .3s;
+    z-index: 0;
+  
+}
+
+.section__service-block>a:hover:after {
+    height: 260%;
+    opacity: 1;
+}
+
+.section__service-block>a:hover {
+    border-color: #fff;
+    color: #000;
+    
+}
+.section__service-block:hover .line1:before, .section__service-block:hover .line3:before {
+    height: 60px;
+}
+
+.section__service-block:hover .line2:before, .section__service-block:hover .line4:before {
+    width: 60px !important;
+}
+
+span.line1 {
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+}
+
+span.line2 {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 5px;
+}
+
+span.line3 {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 5px;
+}
+
+span.line4 {
+    bottom: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+}
+
+span.line1:before {
+    height: 0;
+    width: 12px;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #fff;
+    position: absolute;
+    transition: all ease .5s;
+    transition-delay: .1s;
+}
+
+span.line2:before, span.line3:before, span.line4:before {
+    content: "";
+    background: #fff;
+    position: absolute;
+    transition: all ease .5s;
+    transition-delay: .1s;
+}
+
+span.line2:before {
+    top: 0;
+    right: 0;
+    height: 12px;
+    width: 0;}
+
+span.line3:before {
+    bottom: 0;
+    right: 0;
+    width: 12px;
+    height: 0;
+}
+
+span.line4:before {
+    bottom: 0;
+    left: 0;
+    height: 12px;
+    width: 0;
+}

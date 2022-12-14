@@ -2,7 +2,7 @@ import React from 'react'
 import { Container,Row,Col } from 'reactstrap'
 import { Link, NavLink } from 'react-router-dom'
 
-import '../styles/header.css'
+import '../../styles/header.css'
 
 const navLinks = [
   {
@@ -37,15 +37,15 @@ const Header = () => {
             <div className="header__top__left">
               <span>Need Help?</span>
               <span className="header__top__help">
-                <i class="ri-phone-fill"></i>03845859058
+                <i className="ri-phone-fill"></i>03845859058
               </span>
             </div>
           </Col>
           <Col lg='6' md='6' sm='6'>
             <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
-              <Link to="#" className='d-flex align-item-center gap-1'> <i class="ri-login-circle-line"></i>Login</Link>
+              <Link to="#" className='d-flex align-item-center gap-1'> <i className="ri-login-circle-line"></i>Login</Link>
 
-              <Link to="#" className='d-flex align-item-center gap-1'><i class="ri-user-line"></i>Register</Link>
+              <Link to="#" className='d-flex align-item-center gap-1'><i className="ri-user-line"></i>Register</Link>
             </div>
           </Col>
         </Row>
@@ -58,7 +58,7 @@ const Header = () => {
             <div className="logo">
               <h1>
                 <Link to='/home' className='d-flex align-items-center gap-2'>
-                <i class="ri-car-line"></i>
+                <i className="ri-car-line"></i>
                 <span>Auto 2000 <br /> Service</span>
                 </Link>
               </h1>
@@ -66,7 +66,7 @@ const Header = () => {
           </Col >
           <Col mg='3' md='3' sm='4'>
             <div className="header__location d-flex align-items-center gap-2">
-              <span><i class="ri-earth-line"></i></span>
+              <span><i className="ri-earth-line"></i></span>
               <div className="header__location-content">
                 <h4>Viet Nam</h4>
                 <h6>Ha Noi City, Viet Nam</h6>
@@ -75,9 +75,9 @@ const Header = () => {
           </Col>
           <Col mg='3' md='3' sm='4'>
             <div className="header__location d-flex align-items-center gap-2">
-              <span><i class="ri-time-line"></i></span>
+              <span><i className="ri-time-line"></i></span>
               <div className="header__location-content">
-                <h4>Sunday to Friday</h4>
+                <h4>Every day</h4>
                 <h6>10am - 7pm</h6>
               </div>
             </div>
@@ -85,7 +85,7 @@ const Header = () => {
           <Col lg='2' md='3' sm='0' className='d-flex  align-items-center justify-content-end '>
             <button className="header__btn btn ">
               <Link to='./contact'>
-              <i class="ri-phone-line"></i> Request a call
+              <i className="ri-phone-line"></i> Request a call
               </Link>
             </button>
           </Col>
@@ -97,7 +97,7 @@ const Header = () => {
       <Container>
         <div className="navigation__wrapper d-flex align-items-center justify-content-between ">
           <span className="mobile__menu">
-          <i class="ri-menu-line"></i>
+          <i className="ri-menu-line"></i>
           </span>
 
           <div className="navigation">
@@ -113,7 +113,7 @@ const Header = () => {
           <div className="nav__right">
             <div className="search__box">
               <input type="text" placeholder='Search'/>
-              <span><i class="ri-search-line"></i></span>
+              <span><i className="ri-search-line"></i></span>
             </div>
           </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import {Container,Row,Col,ListGroup,ListGroupItem} from 'reactstrap'
 import { Link } from 'react-router-dom'
 
-import '../styles/footer.css'
+import '../../styles/footer.css'
 const quickLinks = [
   {
     path:'/about',
@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="logo footer__logo">
               <h1>
                 <Link to='/home' className='d-flex align-items-center gap-2'>
-                <i class="ri-car-line"></i>
+                <i className="ri-car-line"></i>
                 <span>Auto 2000 <br /> Service</span>
                 </Link>
               </h1>
@@ -81,14 +81,14 @@ const Footer = () => {
               <p className="section__description">Subscribe our newsletter</p>
               <div className="newsletter">
                 <input type="email" placeholder='Email' />
-                <span><i class="ri-send-plane-line"></i></span>
+                <span><i className="ri-send-plane-line"></i></span>
               </div>
             </div>
           </Col>
           <Col lg='12'>
             <div className="footer__bottom">
               <p className="section__description d-flex align-items-center justify-content-center gap-1 pt-4">
-              <i class="ri-copyright-line"></i> Copyright {year} by Huy Nguyen
+              <i className="ri-copyright-line"></i> Copyright {year} by Huy Nguyen
               </p>
             </div>
           </Col>

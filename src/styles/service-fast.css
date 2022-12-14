@@ -1,0 +1,161 @@
+
+
+.service__fast-left{
+    background: linear-gradient(rgb(249,168,38,0.9),rgb(249,168,38,0.9)),url('../assets/all-images/porsche-911-Turbo-S.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+.service__fast-left h2{
+    font-weight: 600;
+    font-style: 2.8rem;
+   
+}
+
+
+.hero__slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.service__fast{
+    width: 100%;
+    position: absolute;
+    bottom: -150px;
+    z-index: 11;
+}
+
+.service__fast-row{
+    background: #fff;   
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+}
+
+.service__fast-container{
+    margin-top: 10px;
+}
+.service__fast-block{
+    margin-top: 10px;
+    background: #f2f2f2;
+    box-shadow: 5px 5px 15px -5px #7c8a97;
+    
+}
+
+.service__fast-btn {
+    display: flex;
+    align-items: center;
+    background: #f2f2f2 ;
+    padding: 8px 15px;
+    width: 100%;
+    border: 0.5px solid #e8e5e5;
+    outline: none;
+  }
+
+  .service__fast-btn:hover{
+   background: #0b69c1;
+   color: #fff !important;
+  }
+
+  .service__fast-btn a {
+ 
+    text-decoration: none;
+    color: #fff;
+  }
+  .service__fast-btn h2{
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #262626;
+  }
+  .service__fast-btn h2:hover{
+    color: #fff;
+  }
+
+  .service__fast-icon{
+    display: flex;
+  }
+
+  .service__fast-icon i{
+    margin-left: 40%;
+    font-weight: 600;
+    font-size: 2.4rem;
+  }
+
+  @media only screen and (max-width: 1224px) {
+    .service__fast-left {
+      padding: 65px 22px;
+    }
+  
+    .service__fast-left h2 {
+      font-size: 1.8rem;
+    }
+
+  
+ 
+    .service__fast {
+      bottom: -100px;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    .service__fast-left {
+      padding: 115px 22px;
+    }
+  
+    .service__fast-left h2 {
+      font-size: 1.5rem;
+    }
+  
+    .service__fast-block{
+        margin-bottom: 10px;
+ 
+        
+    }
+ 
+    .service__fast {
+      bottom: -100px;
+    }
+    
+    .service__fast-btn h2{
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .service__fast-left {
+        
+      padding-top: 20px;
+      padding-bottom: 0;
+      background: #fff;
+      text-align: center;
+    }
+    .service__fast-btn h2{
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+  
+  
+  }
+  
+  @media only screen and (max-width: 576px) {
+  
+    .service__fast-btn {
+      font-size: 0.8rem;
+    }
+  
+    .service__fast-left h2 {
+      font-size: 1rem;
+    }
+  
+    .service__fast {
+      bottom: -250px;
+    }
+    .service__fast-btn h2{
+        font-weight: 200;
+        font-size: 1rem;
+    }
+  }  
+
+

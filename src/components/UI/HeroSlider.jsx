@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Slider from 'react-slick'
 import { Container } from 'reactstrap'
 
-import '../styles/hero-slider.css'
+import '../../styles/hero-slider.css'
 
 const HeroSlider = () => {
 
