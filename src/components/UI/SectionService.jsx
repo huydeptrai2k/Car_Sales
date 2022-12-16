@@ -13,7 +13,7 @@ const SectionService = () => {
     <section className='section__service'>
         <div className='section__service-container'>
             <Row className='section__service-row'>
-                <Col className='section__service-col' lg='4' md='4' sm='12' mb-20>
+                <Col className='section__service-col' lg='4' md='4' sm='12' >
                     <div className="section__service-block">
                         <img src={serviceImage1} alt="" className="section__service-img" />
                         <span className="line1"></span>
@@ -31,7 +31,7 @@ const SectionService = () => {
                         </Link>
                     </div>
                 </Col>
-                <Col className='section__service-col'lg='4' md='4' sm='12' mb-20>
+                <Col className='section__service-col'lg='4' md='4' sm='12' >
                     <div className="section__service-block">
                         <img src={serviceImage2} alt="" className="section__service-img" />
                         <span className="line1"></span>
@@ -51,7 +51,7 @@ const SectionService = () => {
                         </Link>
                     </div>
                 </Col>
-                <Col className='section__service-col' lg='4' md='4' sm='12' mb-20>
+                <Col className='section__service-col' lg='4' md='4' sm='12' >
                     <div className="section__service-block">
                         <img src={serviceImage3} alt="" className="section__service-img" />
                         <span className="line1"></span>

@@ -107,6 +107,7 @@
 /* MAIN NAV_BAR */
 
 .main__navbar{
+  
     padding: 15px 0px;
     background: #000d6b;
 }
@@ -166,3 +167,50 @@ cursor: pointer;
 .nav__active{
     color: #f9a826;
 }
+
+
+@media only screen and (max-width: 768px) {
+  
+    .header__top,
+    .header__middle,
+    .nav__right{
+        display: none;
+    }
+    .mobile__menu{
+        display: block;
+    }
+
+    .navigation{
+        display: none;
+        background: rgb(0,13,107,0.6);
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+        padding-top: 20%;
+        flex-direction: column;
+        row-gap: 2rem;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+    }
+
+    .menu a{
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: #000d6b;
+    }
+
+    .menu__active{
+        display: block;
+    }
+  
+ 
+  }

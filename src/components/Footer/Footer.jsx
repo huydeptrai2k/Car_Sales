@@ -44,8 +44,8 @@ const Footer = () => {
               </h1>
             </div>
             <p className="footer__logo-content">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo molestias inventore, nihil reprehenderit illo unde delectus nam sequi dolorem debitis voluptatum. Praesentium natus dolor vero ea qui, quam nobis ducimus!
-            </p>
+            Showroom chúng tôi chuyên mua bán các loại xe ô tô cao cấp Đức, Mỹ, Nhật với chất lượng được đảm bảo ở mức cao nhất, không đâm đụng, không bị ngập nước, giấy tờ đầy đủ và tuân theo các quy định của pháp luật. Đến với Showroom Auto2000, quý khách hàng có thể hoàn toàn an tâm và thoải mái chọn lựa cho mình chiếc xe yêu thích
+              </p>
           </Col>
           <Col lg='2' md='4' sm='6'>
             <div className='mb-4'>
